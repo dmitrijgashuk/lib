@@ -1,2 +1,3 @@
 
-Open UI - http://localhost:8080/swagger-ui/index.html
+Open UI - http://localhost:8080/swagger-ui/index
+
