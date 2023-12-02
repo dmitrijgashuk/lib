@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form action="/login">
+    <label for="emailField">Email address:</label>
+    <br>
+    <input id="emailField" type="email">
+    <br>
+    <label for="passwordField">Password:</label>
+    <br>
+    <input id="passwordField" type="password">
+    <br>
+    <input type="submit" value="Sing in">
+</form>
+<!--/*@thymesVar id="userError" type="java.lang.Boolean"*/-->
+<div th:if="${userError}">
+    <h3>Wrong user or password!</h3>
+</div>
+<h4><a href="registration_form.html">Registration form</a></h4>
+
+</body>
+</html>

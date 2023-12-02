@@ -4,5 +4,10 @@ spring:
     username: postgres
     password: qwerty
 
+jwt:
+  header: Authorization
+  secret: casper
+  expiration: 604800
+
 
 
